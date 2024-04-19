@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .movie-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .movie-card{
+    font-size: 90px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 10px solid #0056b3; /* solid border style with color #0056b3 and width 30px */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  .movie-card h2 {
+    font-size: 40px; 
+    font-style: italic;
+    margin-bottom: 15px;
+
+  }
+  input[type="text"],
+  input[type="number"] {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #movieList {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #movieList li {
+    background-color: #4985c2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
